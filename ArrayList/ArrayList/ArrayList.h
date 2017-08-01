@@ -1,11 +1,11 @@
 #ifndef __ARRAY_LIST_H__
 #define __ARRAY_LIST_H__
-
+#include "Point.h"
 #define TRUE  1
 #define FALSE 0
 
 #define LIST_LEN 100
-typedef int LData;
+typedef Point* LData;
 
 typedef struct array_list {
 	LData arr[LIST_LEN]; //배열 기반 리스트
@@ -23,6 +23,7 @@ void LInsert(List * plist, LData data);
 */
 int LFirst(List * plist, LData * pdata);
 int LNext(List * plist, LData * pdata);
+//메모리 소멸의 기회를 줄 수 있도록 반환
 LData LRemove(List * plist);
 int LCount(List * plist);
 

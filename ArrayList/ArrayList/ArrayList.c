@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "ArrayList.h"
 
 void ListInit(List * plist) {
