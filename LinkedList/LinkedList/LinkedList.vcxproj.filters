@@ -15,7 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedHeadRead.c">
+    <ClInclude Include="DLinkedList.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLinkedList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinkedListMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

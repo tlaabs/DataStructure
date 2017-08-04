@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InfixToPostfix.h" />
+    <ClInclude Include="ListBaseStack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InfixToPostfix.c" />
+    <ClCompile Include="InfixToPostfixMain.c" />
+    <ClCompile Include="ListBaseStack.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{77E767F8-35A4-46F7-8096-AB0AC6625D1F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -101,7 +110,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>

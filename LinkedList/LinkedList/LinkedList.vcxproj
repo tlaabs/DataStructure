@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedHeadRead.c" />
+    <ClInclude Include="DLinkedList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLinkedList.c" />
+    <ClCompile Include="DLinkedListMain.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B86815AE-DC09-4194-854E-FAEA1012B5F8}</ProjectGuid>
