@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryTree2.h" />
+    <ClInclude Include="ExpressionTree.h" />
+    <ClInclude Include="ListBaseStack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryTree2.c" />
+    <ClCompile Include="ExpressionMain.c" />
+    <ClCompile Include="ExpressionTree.c" />
+    <ClCompile Include="ListBaseStack.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{82E0C7DB-7AB2-4D22-AEFC-F069FAE4EEAD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,13 +156,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="BinaryTree2.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="BinaryTree2.c" />
-    <ClCompile Include="BinaryTreeTraverseMain2.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

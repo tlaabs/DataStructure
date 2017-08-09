@@ -23,6 +23,7 @@ int main() {
 	PostorderTraverse(bt1,ShowIntData);
 	printf("\n");
 
+	DeleteTree(bt1);
 	return 0;
 }
 
