@@ -15,15 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RadixSort.c">
+    <ClCompile Include="BinaryTree3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ListBaseQueue.c">
+    <ClCompile Include="BinarySearchTree2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTreeDelMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ListBaseQueue.h">
+    <ClInclude Include="BinaryTree3.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree2.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
