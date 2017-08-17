@@ -146,14 +146,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="Person.h" />
-    <ClInclude Include="Slot.h" />
-    <ClInclude Include="Table.h" />
+    <ClInclude Include="Slot2.h" />
+    <ClInclude Include="Table2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ChainedTableMain.c" />
+    <ClCompile Include="DLinkedList.c" />
     <ClCompile Include="Person.c" />
-    <ClCompile Include="SimpleHashMain.c" />
-    <ClCompile Include="Table.c" />
+    <ClCompile Include="Table2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
