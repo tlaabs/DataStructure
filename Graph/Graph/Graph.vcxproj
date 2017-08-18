@@ -18,6 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ALEdge.h" />
+    <ClInclude Include="ALGraphKruskal.h" />
+    <ClInclude Include="ArrayBaseStack.h" />
+    <ClInclude Include="DLinkedList.h" />
+    <ClInclude Include="PriorityQueue.h" />
+    <ClInclude Include="UsefulHeap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ALGraphKruskal.c" />
+    <ClCompile Include="ArrayBaseStack.c" />
+    <ClCompile Include="DLinkedList.c" />
+    <ClCompile Include="KruskalMain.c" />
+    <ClCompile Include="PriorityQueue.c" />
+    <ClCompile Include="UserfulHeap.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{219777FE-9247-4A3F-905C-2BB722BEF831}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
